@@ -1,0 +1,10 @@
+[data-anima="left"] {
+  opacity: 0;
+  transform: translate3d(-30px,0,0);
+  transition: .5s;
+}
+
+[data-anima="left"].animar {
+  opacity: 1;
+  transform: translate3d(0,0,0)
+};

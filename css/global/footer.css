@@ -1,0 +1,38 @@
+.bg-footer {
+  background: #121617;
+  padding: 70px 0;
+}
+
+.conteudo-footer{
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.conteudo-footer p {
+  max-width: 480px;
+  margin-bottom: 30px;
+}
+
+.conteudo-footer a {
+  font-weight: 600;
+}
+
+.contato{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.contato a {
+  display: block;
+}
+
+.icone img{
+  height: 35px;
+  width: 35px;
+  display: block;
+}

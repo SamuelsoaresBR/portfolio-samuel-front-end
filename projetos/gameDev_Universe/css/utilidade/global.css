@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #E0E2E5;
+}
+
+img{
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.footer-bg{
+  background: linear-gradient(to right,#2255BB, #114499  );
+}
+
+
+.logo-footer {
+  font-family: 'IBM Plex Mono';
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: le;
+  text-transform: uppercase;
+  line-height: 2rem;
+  display: block;
+  padding: 30px 10px;
+  color: #E0E2E5;
+}
+
+.copy{
+  font-family: 'IBM Plex Mono';
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  padding-bottom: 20px;
+  display: block;
+}

@@ -1,0 +1,33 @@
+.hero-bg{
+  max-width: 1920px ;
+  display: block;
+  background-image: url(../../img/hero-img.jpg);
+  margin-bottom: 50px;
+  transition: .5s;
+}
+
+@media (max-width: 500px) {
+  .hero-bg {
+    transition: .5s;
+  }
+}
+
+.mini-t {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.hero-conteudo {
+  margin: 0 10px;
+  padding-bottom: 70px;
+}
+
+.hero-conteudo h1 {
+  text-transform: uppercase;
+  max-width: 715px;
+  margin-bottom: 15px;
+}
+
+.hero-conteudo p {
+  max-width: 567px;
+}

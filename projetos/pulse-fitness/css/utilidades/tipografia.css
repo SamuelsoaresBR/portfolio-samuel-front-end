@@ -1,0 +1,31 @@
+.titulo-0 {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(2.1rem, 5vw, 4.375rem);
+  font-weight: 700;
+  line-height: 1.03;
+}
+
+.titulo-1 {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(2rem, 3.5vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+.small-t {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  font-weight: 400;
+}
+
+.body-txt-0 {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(1rem, 2vw, 1.375rem);
+  font-weight: 400;
+}
+
+.body-txt-1 {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  font-weight: 400;
+}

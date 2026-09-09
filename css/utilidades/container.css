@@ -1,0 +1,22 @@
+.container-0 {
+  max-width: 1380px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.container-1 {
+  max-width: 1920px;
+  box-sizing: border-box;
+  margin: 0 auto;
+} 
+
+.container-2 {
+  max-width: 1403px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}  
+
+.banner {
+  max-width: 1920px;
+  box-sizing: border-box;
+  margin: 0 auto 50px auto;
+}

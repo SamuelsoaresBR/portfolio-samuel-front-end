@@ -1,0 +1,11 @@
+.txt-b {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(.8rem, 1.5vw, 0.875rem);
+  font-weight: 700;
+}
+
+.txt {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: clamp(.8rem, 1.5vw, 0.875rem);
+  font-weight: 400;
+}

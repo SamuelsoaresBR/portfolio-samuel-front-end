@@ -1,0 +1,15 @@
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 25px 10px;
+  margin-bottom: 140px;
+  transition: .5s;
+}
+
+@media (max-width: 500px) {
+  .header-content {
+    margin-bottom: 50px;
+    transition: .5s;
+  }
+}

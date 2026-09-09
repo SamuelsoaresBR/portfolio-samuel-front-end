@@ -1,0 +1,10 @@
+.banner{
+  min-height: 300px;
+  margin-bottom: 50px;
+  display: block;
+}
+.banner img{
+  object-fit: cover;
+  min-height: 300px;
+  object-position: center;
+}

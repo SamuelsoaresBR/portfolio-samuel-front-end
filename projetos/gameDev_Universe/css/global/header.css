@@ -1,0 +1,17 @@
+
+.header-bg {
+  background: linear-gradient(to right,#2255BB, #114499  );
+}
+
+
+.logo{
+  font-family: 'IBM Plex Mono';
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1rem;
+  display: block;
+  padding: 6px 0;
+  color: #E0E2E5;
+}

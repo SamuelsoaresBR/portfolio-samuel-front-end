@@ -1,0 +1,91 @@
+.faq-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  margin: 0 10px 90px 10px;
+}
+
+.faq-conteudo img {
+  border-radius: 35px;
+}
+
+.faq-conteudo h2 {
+  margin-bottom: 30px;
+}
+
+.faq-box {
+  margin-left: 30px;
+} 
+
+
+.faq dt {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.faq dt::before {
+  content: '';
+  height: 7px;
+  width: 20px;
+  display: block;
+  background: var(--cor-p);
+  margin-right: 10px;
+  position: absolute;
+  left: -25px;
+}
+
+.faq dd{
+  max-width: 400px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+/*  here is blockquot :   */
+
+.blockquote-bg {
+  background: var(--cor-p);
+  padding: 60px 10px;
+}
+
+.blockquote-bg p {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* here's JS */
+
+.js [data-accordion] dt::after {
+  content: '⬎';
+  margin-left: 10px;
+   transition: .5s;
+}
+
+[data-accordion] dt.ativo::after {
+   content: '⬏';
+   transition: .5s;
+}
+
+
+
+.js [data-accordion] dd {
+  display: none;
+}
+
+.js [data-accordion] dd.ativo{
+  display: block;
+  animation: slidedown .5s forwards;
+}
+
+@keyframes slidedown {
+  from{
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 100px;
+  }
+}
+

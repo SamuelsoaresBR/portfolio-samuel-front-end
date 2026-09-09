@@ -1,0 +1,21 @@
+.container{
+  max-width: 1336px;
+  margin: 0 auto;
+}
+
+.botao {
+  padding: 10px 20px;
+  background: #F3B035;
+  color:#563D0F ;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Inter';
+  font-weight: 700;
+  transition: .3s;
+}
+
+.botao:hover{
+  background: #f1b84c;
+  transition: .3s;
+  cursor: pointer;
+}

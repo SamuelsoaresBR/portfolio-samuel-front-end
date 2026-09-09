@@ -1,0 +1,43 @@
+.titulo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+   transition: .5s;
+}
+
+.txt-xs {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.txt-xs-b {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.txt-m{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.txt{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1,1875rem;
+}
+
+.txt-b{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1,1875rem;
+}
+
+@media (max-width: 390px) {
+  .titulo {
+    font-size: 190%;
+    transition: .5s;
+  }
+}

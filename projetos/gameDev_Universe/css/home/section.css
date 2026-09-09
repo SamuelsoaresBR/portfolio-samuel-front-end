@@ -1,0 +1,76 @@
+/* grid -> card */
+
+.galeria-game{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* style -> card */
+
+.galeria-game{
+  padding: 0 10px;
+  margin-bottom: 70px;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #ECEDF0;
+  width: fit-content;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 5px rgba(0,0,0,.03);
+}
+
+.info{
+  width: 340px;
+}
+
+.card li:nth-child(odd) {
+  background: #E0E2E5;
+}
+
+.card li{
+  height: 30px;
+  padding: 7px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card p {
+  width: 100%;
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card span {
+  color: #4D4D4E;
+}
+
+.img-game img{
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+}
+
+.img-game {
+  position: relative;
+}
+
+.img-game::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 100%;
+  background: linear-gradient(to bottom, #282a2d, #0f1012);
+  border-radius: 4px 0 0 4px;
+  position: absolute;
+  top: 0;
+}
+
+
+ 
