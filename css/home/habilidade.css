@@ -13,7 +13,7 @@
 .fita-track {
   display: flex;
   width: max-content;
-  animation: mover 25s linear infinite;
+  animation: mover 60s linear infinite;
 }
 
 .fita img {
