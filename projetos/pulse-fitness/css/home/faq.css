@@ -7,7 +7,7 @@
 
 .faq-conteudo img {
   border-radius: 35px;
-}
+} 
 
 .faq-conteudo h2 {
   margin-bottom: 30px;
@@ -23,6 +23,7 @@
   align-items: center;
   margin-bottom: 15px;
   position: relative;
+  cursor: pointer;
 }
 
 .faq dt::before {
