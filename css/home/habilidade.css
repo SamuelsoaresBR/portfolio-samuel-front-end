@@ -1,20 +1,18 @@
 .fita {
+  transform: rotate(-0.4deg);
   height: 80px;
   display: block;
   margin-bottom: 50px;
   overflow: hidden;
-  /* background-image: url(../../img/fita.svg); */
 }
 
 .fita-angulo{
-  transform: rotate(-1.01deg);
-}
-
-.fita-track {
   display: flex;
   width: max-content;
   animation: mover 60s linear infinite;
 }
+
+
 
 .fita img {
    height: 70px;

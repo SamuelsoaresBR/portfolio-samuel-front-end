@@ -4,6 +4,7 @@
 @import './utilidades/elementos.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
+@import './home/planejamento.css';
 @import './home/projetos.css';
 @import './home/habilidade.css';
 @import './global/footer.css';
