@@ -2,7 +2,8 @@
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 3rem;
-   transition: .5s;
+  transition: .5s;
+  line-height: 50px;
 }
 
 .txt-xs {
@@ -21,6 +22,12 @@
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+}
+
+.txt{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1,1875rem;
 }
 
 .txt{
